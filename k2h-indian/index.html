@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html manifest="k2hindian.appcache">
+
+<!-- Mirrored from local-apps.co.uk/k2h-indian/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Oct 2025 15:58:39 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="manifest" href="manifest.json">
+
+<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="theme-color" content="#000000"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<meta name="HandheldFriendly" content="true" />
+
+<!-- Chrome for Android web app tags -->
+
+	<meta name="mobile-web-app-capable" content="yes" />
+
+
+<title>K2H Indian</title>
+
+<script src="javascript-1.js"></script>
+<script src="javascript-2.js"></script>
+        
+
+<script type="text/javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+<!-- Created by: Jim Stiles: http://jdstiles.com/ -->
+<!-- Begin
+function mailpage()
+{
+  mail_str = "mailto:?subject= Install K2H Indian's Local App ";
+  mail_str += "&body= To install K2H Indian's LOCAL APP tap the link and follow the install guide: ";
+  mail_str += "https://www.local-apps.co.uk/k2h-indian/index.html"; 
+  location.href = mail_str; 
+}
+
+function smspage()
+{
+  mail_str = "sms:?&body=To%20install%20K2H%20Indians%20LOCAL%20APP%20tap%20the%20link%20and%20follow%20the%20install%20guide%20 https://www.local-apps.co.uk/k2h-indian/index.html";
+  location.href = mail_str; 
+}
+
+	function mailkanya()
+{
+  mail_str = "mailto:sales@k2hindian.co.uk";
+  location.href = mail_str; 
+}
+
+
+
+// End -->
+</script>
+
+        
+
+
+<style>
+
+body {
+	background-color: #000000;
+}
+#apDiv1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	background-color: #000000;
+	visibility: visible;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+	vertical-align: top;
+}
+*:focus
+ 
+{
+outline: none;
+outline-width: 0;
+}
+
+
+/* The Share Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 75px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+}
+
+/* Share Modal Content */
+.modal-content {
+    background-color: transparent
+    margin: auto;
+    padding: 30px;
+    border: none;
+    width: 85%;
+}
+
+/* The Share Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ui-btn {
+                display: block;
+                text-align: center;
+                cursor: pointer;
+                position: relative;
+                margin: .5em 0;
+                display: none;
+            }
+			
+			
+			
+
+/* One Time Modal */
+
+#fvpp-blackout {
+  display: none;
+  z-index: 499;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+#my-welcome-message {
+  display: none;
+  z-index: 500;
+  position: fixed;
+  width: 85%;
+  left: 8%;
+  top: 10%;
+  padding: 0px;
+  font-family: Calibri, Arial, sans-serif;
+  background: transparent;
+  text-align:center;
+}
+
+#fvpp-close {
+    z-index: 600;
+  position: fixed;
+    bottom: 10px;
+    right: 20px;
+    zoom: 200%;
+    cursor: pointer;
+    color: #FFF;
+}
+
+#fvpp-dialog h2 {
+  font-size: 6em;
+  margin: 0;
+}
+
+#fvpp-dialog p { margin: 0; }
+
+
+
+#apDiv1 div p #show-message {
+	color: #FFF;
+}
+#apDiv1 div p #show-message {
+	text-align: center;
+	color: #999;
+}
+</style>
+		
+</head>
+        
+        
+<body>
+
+<script type="text/javascript">
+
+// Check if a new cache is available on page load.
+window.addEventListener('load', function(e) {
+
+  window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      // Browser downloaded a new app cache.
+      // Swap it in and reload the page to get the new hotness.
+      window.applicationCache.swapCache();
+      if (confirm('This Local App has been updated. Click - OK - to refresh now!')) {
+        window.location.reload();
+      }
+    } else {
+      // Manifest didn't changed. Nothing new to server.
+    }
+  }, false);
+
+}, false);
+</script>
+
+
+<!--  Main Kwikcard Content -->
+
+<div id="apDiv1"><img src="images/k2h-indian-local-app.png" alt="" width="640" height="1096" usemap="#Map8" />
+    <map name="Map8" id="Map8"><area shape="circle" coords="475,821,43" href="https://www.facebook.com/k2hindian/"><area shape="circle" coords="370,821,43" href="https://www.messenger.com/t/k2hindian" target="_blank"><area shape="circle" coords="265,821,43" href="javascript:mailkanya()"><area shape="circle" coords="162,821,43" href="https://k2hindian.co.uk/"><area shape="circle" coords="255,612,54" href="tel:07835686552"><area shape="circle" coords="386,613,53" href="https://www.google.com/maps/dir//K2H+Creative+Indian+Kitchen,+3-4+Georges+Walk,+High+St,+Sandbach+CW11+1AR/@53.1430937,-2.3625761,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487a59724ee83cbf:0x486303839dafd5b4!2m2!1d-2.3625761!2d53.1430937" target="_blank"><area shape="rect" coords="115,682,526,759" href="https://k2hcreativeindiankitchen.co.uk/our_menu.php" alt=""/><area shape="circle" coords="515,612,54" href="javascript:btn.onclick()"><area shape="circle" coords="127,611,54" href="tel:01270761662">
+      <area shape="rect" coords="374,1008,624,1076" href="../index.html" alt=""/>
+  </map>
+  <div><center>
+    <p><a id="show-message">+</a></p></center>
+  </div>
+<script>
+// make the whole serviceworker process into a promise so later on we can
+// listen to it and in case new content is available a toast will be shown
+window.isUpdateAvailable = new Promise(function(resolve, reject) {
+	// lazy way of disabling service workers while developing
+	if ('serviceWorker' in navigator && ['localhost', '127'].indexOf(location.hostname) === -1) {
+		// register service worker file
+		navigator.serviceWorker.register('service-worker-k2h-indian.js')
+			.then(reg => {
+				reg.onupdatefound = () => {
+					const installingWorker = reg.installing;
+					installingWorker.onstatechange = () => {
+						switch (installingWorker.state) {
+							case 'installed':
+								if (navigator.serviceWorker.controller) {
+									// new update available
+									resolve(true);
+								} else {
+									// no update available
+									resolve(false);
+								}
+								break;
+						}
+					};
+				};
+			})
+			.catch(err => console.error('[SW ERROR]', err));
+	}
+});
+
+// listen to the service worker promise in index.html to see if there has been a new update.
+// condition: the service-worker.js needs to have some kind of change - e.g. increment CACHE_VERSION.
+window['isUpdateAvailable']
+	.then(isAvailable => {
+		if (isAvailable) {
+			const toast = this.toastCtrl.create({
+				message: 'New Update available! Reload the webapp to see the latest juicy changes.',
+				position: 'bottom',
+				showCloseButton: true,
+			});
+			toast.present();
+		}
+	});
+
+</script>
+
+
+        
+</div>
+<div id="my-welcome-message">
+         <img src="images/add-app-icon-ios.png" alt="" width="520" height="650"/>
+        </div>
+
+        
+            <!-- Trigger/Open The Modal -->
+<button id="myBtn"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+    <span class="close">x</span>
+    
+    <center><img src="images/share-top.png" alt="" width="430" height="78"/></br>
+<a href="javascript:mailpage()"><img src="images/share-email.png" alt="" width="107px" height="54px"/></a>
+<a href="javascript:smspage()"><img src="images/share-text.png" alt="" width="107px" height="54px"/></a><br><br><img src="images/qr-code-k2h-indian.png" alt="" width="200px" height="200px"/><br><br><img src="images/local-apps-logo.png" alt="" width="200px" height="45px"/></center>
+</div></div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script type="text/javascript" src="jquery.rwdImageMaps.min.js"></script>
+
+<script>
+$(document).bind("pageshow", function( event, ui ){
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+
+<script src="jquery.firstVisitPopup.js"></script> 
+
+<script>
+			$(function () {
+				$('#my-welcome-message').firstVisitPopup({
+					cookieName : 'homepagek2hindian',
+					showAgainSelector: '#show-message'
+				});
+			});
+		</script>
+        
+        
+
+
+        
+        
+</body>
+
+<!-- Mirrored from local-apps.co.uk/k2h-indian/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Oct 2025 15:58:43 GMT -->
+</html>

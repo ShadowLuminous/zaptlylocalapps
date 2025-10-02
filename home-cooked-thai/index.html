@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html manifest="homecookedthai.appcache">
+ 
+ 
+<!-- Mirrored from local-apps.co.uk/home-cooked-thai/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Oct 2025 15:58:53 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="manifest" href="manifest.json">
+
+<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="theme-color" content="#000000"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.html" />
+	<meta name="HandheldFriendly" content="true" />
+
+<!-- Chrome for Android web app tags -->
+
+	<meta name="mobile-web-app-capable" content="yes" />
+
+
+<title>HomeThai</title>
+
+<script src="javascript-1.js"></script>
+<script src="javascript-2.js"></script>
+        
+
+<script type="text/javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+<!-- Created by: Jim Stiles: http://jdstiles.com/ -->
+<!-- Begin
+function mailpage()
+{
+  mail_str = "mailto:?subject= Install Home Cooked Thai's LOCAL APP ";
+  mail_str += "&body= To install Home Cooked Thai's LOCAL APP tap the link and follow the install guide: ";
+  mail_str += "https://www.local-apps.co.uk/home-cooked-thai/index.html"; 
+  location.href = mail_str; 
+}
+
+function smspage()
+{
+  mail_str = "sms:?&body=To%20install%20Home%20Cooked%20Thais%20LOCAL%20APP%20tap%20the%20link%20and%20follow%20the%20install%20guide%20 https://www.local-apps.co.uk/home-cooked-thai/index.html";
+  location.href = mail_str; 
+}
+	
+	function smsbh()
+{
+  mail_str = "sms:07958015473";
+  location.href = mail_str; 
+}
+// End -->
+</script>
+
+
+
+<style>
+
+body {
+	background-color: #000000;
+}
+#apDiv1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	background-color: #000000;
+	visibility: visible;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+	vertical-align: top;
+}
+*:focus
+ 
+{
+outline: none;
+outline-width: 0;
+}
+
+
+/* The Share Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+}
+
+/* Share Modal Content */
+.modal-content {
+    background-color: transparent
+    margin: auto;
+    padding: 30px;
+    border: none;
+    width: 85%;
+}
+
+/* The Share Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ui-btn {
+                display: block;
+                text-align: center;
+                cursor: pointer;
+                position: relative;
+                margin: .5em 0;
+                display: none;
+            }
+			
+			
+			
+
+/* One Time Modal */
+
+#fvpp-blackout {
+  display: none;
+  z-index: 499;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+#my-welcome-message {
+  display: none;
+  z-index: 500;
+  position: fixed;
+  width: 85%;
+  left: 8%;
+  top: 10%;
+  padding: 0px;
+  font-family: Calibri, Arial, sans-serif;
+  background: transparent;
+  text-align:center;
+}
+
+#fvpp-close {
+    z-index: 600;
+  position: fixed;
+    bottom: 10px;
+    right: 20px;
+    zoom: 200%;
+    cursor: pointer;
+    color: #FFF;
+}
+
+#fvpp-dialog h2 {
+  font-size: 6em;
+  margin: 0;
+}
+
+#fvpp-dialog p { margin: 0; }
+
+
+
+#apDiv1 div p #show-message {
+	color: #FFF;
+}
+#apDiv1 div p #show-message {
+	text-align: center;
+	color: #999;
+}
+
+
+
+
+
+
+/* Scroll To Top Button */
+
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+
+
+.scroll {
+position: absolute;
+left: 40px;
+bottom: 10px;
+background: rgba(216,156,18,0.85);
+padding: 20px 13px 20px 13px;
+text-align: center;
+margin: 0 0 0 0;
+cursor: pointer;
+transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+color: white;
+border-radius: 50px;
+font-size: 20px;
+}
+
+
+.scroll:hover {
+background: rgba(109, 109, 109, 0.82);
+transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+	
+	
+	
+	
+	
+	
+
+
+</style>
+		
+</head>
+        
+        
+<body>
+
+<script type="text/javascript">
+
+// Check if a new cache is available on page load.
+window.addEventListener('load', function(e) {
+
+  window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      // Browser downloaded a new app cache.
+      // Swap it in and reload the page to get the new hotness.
+      window.applicationCache.swapCache();
+      if (confirm('This Local App has been updated. Click - OK - to refresh now!')) {
+        window.location.reload();
+      }
+    } else {
+      // Manifest didn't changed. Nothing new to server.
+    }
+  }, false);
+
+}, false);
+</script>
+
+
+<!--  Main Kwikcard Content -->
+
+<div id="apDiv1"><img src="images/home-cooked-thai-local-app.png" alt="" width="640" height="1096" usemap="#Map8" />
+    <map name="Map8" id="Map8"><area shape="rect" coords="106,690,534,770" href="https://www.messenger.com/t/homecookedthai" alt=""/><area shape="circle" coords="316,621,55" href="https://www.facebook.com/homecookedthai/"><area shape="circle" coords="449,621,54" href="javascript:btn.onclick()">
+      <area shape="circle" coords="184,620,54" href="https://www.messenger.com/t/homecookedthai">
+      <area shape="rect" coords="378,1012,621,1075" href="../index.html" alt=""/>
+  </map>
+  <div><center>
+    <p><a id="show-message">+</a></p></center>
+  </div>
+<script>
+// make the whole serviceworker process into a promise so later on we can
+// listen to it and in case new content is available a toast will be shown
+window.isUpdateAvailable = new Promise(function(resolve, reject) {
+	// lazy way of disabling service workers while developing
+	if ('serviceWorker' in navigator && ['localhost', '127'].indexOf(location.hostname) === -1) {
+		// register service worker file
+		navigator.serviceWorker.register('service-worker-homecookedthai.js')
+			.then(reg => {
+				reg.onupdatefound = () => {
+					const installingWorker = reg.installing;
+					installingWorker.onstatechange = () => {
+						switch (installingWorker.state) {
+							case 'installed':
+								if (navigator.serviceWorker.controller) {
+									// new update available
+									resolve(true);
+								} else {
+									// no update available
+									resolve(false);
+								}
+								break;
+						}
+					};
+				};
+			})
+			.catch(err => console.error('[SW ERROR]', err));
+	}
+});
+
+// listen to the service worker promise in index.html to see if there has been a new update.
+// condition: the service-worker.js needs to have some kind of change - e.g. increment CACHE_VERSION.
+window['isUpdateAvailable']
+	.then(isAvailable => {
+		if (isAvailable) {
+			const toast = this.toastCtrl.create({
+				message: 'New Update available! Reload the webapp to see the latest juicy changes.',
+				position: 'bottom',
+				showCloseButton: true,
+			});
+			toast.present();
+		}
+	});
+
+</script>
+
+
+        
+</div>
+<div id="my-welcome-message">
+         <img src="images/add-app-icon-ios.png" alt="" width="520" height="650"/>
+        </div>
+
+        
+            <!-- Trigger/Open The Modal -->
+<button id="myBtn"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+    <span class="close">x</span>
+    
+    <center><img src="images/share-top.png" alt="" width="430" height="78"/></br>
+<a href="javascript:mailpage()"><img src="images/share-email.png" alt="" width="107px" height="54px"/></a>
+<a href="javascript:smspage()"><img src="images/share-text.png" alt="" width="107px" height="54px"/></a><br><br><img src="images/qr-code-homecookedthai.png" alt="" width="200px" height="200px"/><br><br><img src="images/local-apps-logo.png" alt="" width="200px" height="45px"/></center>
+</div></div>
+
+
+
+
+
+
+<div class='thetop'></div>
+
+<div class='scrolltop'>
+    <div class='scroll icon'>TOP</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script type="text/javascript" src="jquery.rwdImageMaps.min.js"></script>
+
+<script>
+$(document).bind("pageshow", function( event, ui ){
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+
+<script src="jquery.firstVisitPopup.js"></script> 
+
+<script>
+			$(function () {
+				$('#my-welcome-message').firstVisitPopup({
+					cookieName : 'homepagehomecookedthai',
+					showAgainSelector: '#show-message'
+				});
+			});
+		</script>
+        
+
+
+
+
+<script>
+		$(window).scroll(function() {
+    if ($(this).scrollTop() > 100 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"4000");return false})})
+</script>
+
+
+   
+
+
+        
+        
+</body>
+
+<!-- Mirrored from local-apps.co.uk/home-cooked-thai/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Oct 2025 15:58:58 GMT -->
+</html>
